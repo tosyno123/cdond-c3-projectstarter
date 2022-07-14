@@ -178,7 +178,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          # You can get this ID in the section where you registered the SSH Key
+          # You can get this ID in the section where you registered the SSH Key -
           fingerprints:
             ["1f:47:83:cc:b7:52:02:aa:2e:36:62:95:b8:e3:17:15"]
       - attach_workspace:
