@@ -414,6 +414,9 @@ jobs:
       - attach_workspace:
           at: ~/
       - run:
+          command: |
+            yum -y install tar gzip
+      - run:
           name: Get old stack workflow id
           command: |
             # your code here
